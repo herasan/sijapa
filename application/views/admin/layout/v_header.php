@@ -5,7 +5,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">SIJAPA - Sistem Informasi Jaringan Prasarana</a>
+                <a class="navbar-brand" href="<?= base_url('home'); ?>">SIJAPA - Sistem Informasi Jaringan Prasarana</a>
             </div>
 
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -19,7 +19,7 @@
 
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i> <?= $this->session->userdata('nm_pengguna');?> <b></b>
+                        <i class="fa fa-user fa-fw"></i> <?= $this->session->userdata('nm_pengguna'); ?> <b></b>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
 
