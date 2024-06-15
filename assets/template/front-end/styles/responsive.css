@@ -285,10 +285,10 @@
 
 @media only screen and (max-width: 767px)
 {
-	.top_bar
+	/* .top_bar
 	{
 		display: none;
-	}
+	} */
 	.home_slider_nav
 	{
 		display: none;
