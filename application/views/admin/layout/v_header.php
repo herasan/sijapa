@@ -22,14 +22,13 @@
                         <i class="fa fa-user fa-fw"></i> <?= $this->session->userdata('nm_pengguna'); ?> <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-
-                    </ul>
                 </li>
+                <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="<?= base_url('login/logout'); ?>"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                </li>
+
+            </ul>
+            </li>
             </ul>
