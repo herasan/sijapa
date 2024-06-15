@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
-                        <div id="map" style="width: 100%; height: 300px;">
+                        <div id="map" style="width: 100%; height: 300px; z-index: 1">
                             <script>
                                 var curLocation = [0, 0];
                                 if (curLocation[0] == 0 && curLocation[1] == 0) {

@@ -31,7 +31,7 @@
     </div>
 
     <!-- Header Content -->
-    <div class="header_container">
+    <div class="header_container" style="z-index: 99999;">
         <div class="container">
             <div class="row">
                 <div class="col">
