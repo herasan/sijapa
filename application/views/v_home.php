@@ -47,46 +47,53 @@
             </div>
         </div>
         <div class="row features_row">
-
             <!-- Features Item -->
             <div class="col-lg-3 feature_col">
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>assets/icon/Form.png" alt=""></div>
-                    <h3 class="feature_title mb-2" style="text-transform: uppercase;">Formulir</h3>
-                    <div class="feature_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="#">
+                    <div class="feature text-center trans_400">
+                        <div class="feature_icon"><img src="<?= base_url() ?>assets/icon/Form.png" alt=""></div>
+                        <h3 class="feature_title mb-2" style="text-transform: uppercase;">Formulir</h3>
+                        <div class="feature_text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <!-- Features Item -->
             <div class="col-lg-3 feature_col">
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>assets/icon/Table.png" alt=""></div>
-                    <h3 class="feature_title mb-2" style="text-transform: uppercase;">Tabel</h3>
-                    <div class="feature_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="">
+                    <div class="feature text-center trans_400">
+                        <div class="feature_icon"><img src="<?= base_url() ?>assets/icon/Table.png" alt=""></div>
+                        <h3 class="feature_title mb-2" style="text-transform: uppercase;">Tabel</h3>
+                        <div class="feature_text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <!-- Features Item -->
             <div class="col-lg-3 feature_col">
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>assets/icon/Data.png" alt=""></div>
-                    <h3 class="feature_title mb-2" style="text-transform: uppercase;">Data</h3>
-                    <div class="feature_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="<?= base_url('User_data'); ?>">
+                    <div class="feature text-center trans_400">
+                        <div class="feature_icon"><img src="<?= base_url() ?>assets/icon/Data.png" alt=""></div>
+                        <h3 class="feature_title mb-2" style="text-transform: uppercase;">Data</h3>
+                        <div class="feature_text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <!-- Features Item -->
             <div class="col-lg-3 feature_col">
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>assets/icon/Map.png" alt=""></div>
-                    <h3 class="feature_title mb-2" style="text-transform: uppercase;">Peta</h3>
-                    <div class="feature_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="">
+                    <div class="feature text-center trans_400">
+                        <div class="feature_icon"><img src="<?= base_url() ?>assets/icon/Map.png" alt=""></div>
+                        <h3 class="feature_title mb-2" style="text-transform: uppercase;">Peta</h3>
+                        <div class="feature_text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
         </div>

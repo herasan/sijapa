@@ -257,7 +257,7 @@ section
 }
 .header.scrolled
 {
-	top: -40px;
+	/* top: -40px;x */
 }
 
 /*********************************
@@ -1267,4 +1267,37 @@ section
 .cr_list li a:hover
 {
 	color: #14bdee;
+}
+
+
+/* MyCSS */
+
+.data {
+	background: #F5F5F5;
+	background: -webkit-linear-gradient( top , #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(to bottom, #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #DFDFDF;
+	border-left: 1px solid #ECECEC;
+	border-radius: 8px;
+	border-right: 1px solid #ECECEC;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	min-height: 100px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+
+.data-box {
+	border-radius: 8px;
+	border-top: 1px solid #1633e9;
+	border-top-width: 4px;
+	position: relative;
+	top: -1px;
 }
