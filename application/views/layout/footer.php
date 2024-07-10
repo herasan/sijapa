@@ -8,7 +8,7 @@
                 <div class="footer_content">
                     <div class="row">
 
-                        <div class="col-lg-3 footer_col">
+                        <div class="col-lg-5 footer_col">
 
                             <!-- Footer About -->
                             <div class="footer_section footer_about">
@@ -18,30 +18,26 @@
                                     </a>
                                 </div>
                                 <div class="footer_about_text">
-                                    <p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
-                                </div>
-                                <div class="footer_social">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    </ul>
+                                    <h4 style="color: whitesmoke;">Sistem Informasi Sarana dan Prasarana Kecamatan Kaliwungu
+                                        Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR)
+                                        Kabupaten Kendal
+                                    </h4>
+                                    <h5 class="mt-4">Kabupaten Cirebon</h5>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-lg-3 footer_col">
+                        <div class="col-lg-4 footer_col">
 
                             <!-- Footer Contact -->
                             <div class="footer_section footer_contact">
                                 <div class="footer_title">Contact Us</div>
                                 <div class="footer_contact_info">
                                     <ul>
-                                        <li>Email: Info.deercreative@gmail.com</li>
-                                        <li>Phone: +(88) 111 555 666</li>
-                                        <li>40 Baria Sreet 133/2 New York City, United States</li>
+                                        <li><i class="fa fa-map-marker" style="margin-right: 5px;"></i> <span style="font-weight: bold;">Address : </span> Jalan Sunan Kalijaga No. 11 Kota Sumber Cirebon 45611</li>
+                                        <li><i class="fa fa-phone" style="margin-right: 5px;"></i> <span style="font-weight: bold;">Phone : </span> +62 (231) 321991</li>
+                                        <li><i class="fa fa-envelope" style="margin-right: 5px;"></i> <span style="font-weight: bold;">Email : </span> bappeda@cirebon.go.id</li>
                                     </ul>
                                 </div>
                             </div>
@@ -52,35 +48,19 @@
 
                             <!-- Footer links -->
                             <div class="footer_section footer_links">
-                                <div class="footer_title">Contact Us</div>
-                                <div class="footer_links_container">
+                                <div class="footer_title">Follow Us</div>
+
+                                <div class="footer_social">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="#">Features</a></li>
-                                        <li><a href="courses.html">Courses</a></li>
-                                        <li><a href="#">Events</a></li>
-                                        <li><a href="#">Gallery</a></li>
-                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="col-lg-3 footer_col clearfix">
-
-                            <!-- Footer links -->
-                            <div class="footer_section footer_mobile">
-                                <div class="footer_title">Mobile</div>
-                                <div class="footer_mobile_content">
-                                    <div class="footer_image"><a href="#"><img src="images/mobile_1.png" alt=""></a></div>
-                                    <div class="footer_image"><a href="#"><img src="images/mobile_2.png" alt=""></a></div>
-                                </div>
-                            </div>
-
-                        </div>
 
                     </div>
                 </div>
@@ -128,6 +108,7 @@
 <script src="<?= base_url('assets/template/front-end/'); ?>plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="<?= base_url('assets/template/front-end/'); ?>plugins/easing/easing.js"></script>
 <script src="<?= base_url('assets/template/front-end/'); ?>plugins/parallax-js-master/parallax.min.js"></script>
+<script src="<?= base_url('assets/template/front-end/'); ?>js/about.js"></script>
 <script src="<?= base_url('assets/template/front-end/'); ?>js/custom.js"></script>
 
 <!-- DataTables -->

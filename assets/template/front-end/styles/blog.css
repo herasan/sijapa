@@ -425,7 +425,7 @@ section
 }
 .main_nav li:not(:last-child)
 {
-	margin-right: 44px;
+	margin-right: 0px;
 }
 .main_nav li a
 {
@@ -441,7 +441,9 @@ section
 .main_nav li a:hover,
 .main_nav li.active a
 {
-	color: #14bdee;
+	background-color: #14bdee;
+	color: white;
+	border-radius: 4px;
 }
 .main_nav li.active::after
 {

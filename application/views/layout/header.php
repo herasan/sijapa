@@ -43,9 +43,9 @@
                         </div>
                         <nav class="main_nav_contaner ml-auto">
                             <ul class="main_nav">
-                                <li><a href="<?= base_url('home'); ?>">Home</a></li>
+                                <li><a class="nav-link" href="<?= base_url('home'); ?>" style="text-transform: uppercase;">Home</a></li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">
                                         Form
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -55,19 +55,19 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">
                                         Tabel Data
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                                         <a class="dropdown-item" href="<?= base_url('User_Tabel_Pelaporan') ?>">Tabel Pelaporan Kerusakan</a>
                                         <a class="dropdown-item" href="<?= base_url('User_Tabel_Perencanaan') ?>">Tabel Usulan Perencanaan</a>
 
                                     </div>
                                 </li>
 
-                                <li><a href="<?= base_url('User_Peta') ?>">Peta</a></li>
-                                <li><a href="<?= base_url('User_Data') ?>">Data</a></li>
-                                <li><a href="<?= base_url('User_tentang'); ?>">Tentang</a></li>
+                                <li><a href="<?= base_url('User_Peta') ?>" class="nav-link" style="text-transform: uppercase;">Peta</a></li>
+                                <li><a href="<?= base_url('User_Data') ?>" class="nav-link" style="text-transform: uppercase;">Data</a></li>
+                                <li><a href="<?= base_url('User_tentang'); ?>" class="nav-link" style="text-transform: uppercase;">Tentang</a></li>
                             </ul>
                             <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
