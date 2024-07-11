@@ -15,25 +15,11 @@
                         <nav class="main_nav_contaner ml-auto">
                             <ul class="main_nav">
                                 <li><a class="nav-link" href="<?= base_url('home'); ?>" style="text-transform: uppercase;">Home</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">
-                                        Form
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="<?= base_url('User_Formulir_pelaporan') ?>">Form Pelaporan Kerusakan</a>
-                                        <a class="dropdown-item" href="<?= base_url('User_Formulir_perencanaan') ?>">Form Usulan Perencanaan</a>
-
-                                    </div>
+                                <li>
+                                    <a class="nav-link" href="<?= base_url('User_Formulir'); ?>" style="text-transform: uppercase;">Form</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">
-                                        Tabel Data
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                                        <a class="dropdown-item" href="<?= base_url('User_Tabel_Pelaporan') ?>">Tabel Pelaporan Kerusakan</a>
-                                        <a class="dropdown-item" href="<?= base_url('User_Tabel_Perencanaan') ?>">Tabel Usulan Perencanaan</a>
-
-                                    </div>
+                                <li>
+                                    <a class="nav-link" href="<?= base_url('User_Tabel'); ?>" style="text-transform: uppercase;">Tabel</a>
                                 </li>
 
                                 <li><a href="<?= base_url('User_Peta') ?>" class="nav-link" style="text-transform: uppercase;">Peta</a></li>

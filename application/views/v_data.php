@@ -30,7 +30,7 @@
             <!-- Data Item -->
             <div class="col-lg-3 col-6 feature_col">
                 <div class="data data-box">
-                    <i class="fa fa-road p-2" style="position: relative; background-color: white; border: 3px solid #1633e9; border-radius: 50%; font-size: 40px; top: -30px;"></i>
+                    <i class="fa fa-road p-2" style="position: relative; background-color: white; border: 3px solid #1633e9; border-radius: 50%; font-size: 40px; top: -30px; color: #1633e9;"></i>
                     <div class="feature text-center trans_400 p-3" style="padding: 0 0 10 10; top: -40px; width: -80px;">
                         <h4 class="mb-4 mt-3">Data Batas Administrasi</h4>
                         <ul class="text-left">
@@ -51,7 +51,7 @@
             <!-- Data Item -->
             <div class="col-lg-3 col-6 feature_col">
                 <div class="data data-box">
-                    <i class="fa fa-road p-2" style="position: relative; background-color: white; border: 3px solid #1633e9; border-radius: 50%; font-size: 40px; top: -30px;"></i>
+                    <i class="fa fa-road p-2" style="position: relative; background-color: white; border: 3px solid #1633e9; border-radius: 50%; font-size: 40px; top: -30px; color: #1633e9;"></i>
                     <div class="feature text-center trans_400 p-3" style="padding: 0 0 10 10; top: -40px; width: -80px;">
                         <h4 class="mb-4 mt-3">Data Batas Administrasi</h4>
                         <ul class="text-left">
@@ -73,7 +73,7 @@
             <!-- Data Item -->
             <div class="col-lg-3 col-6 feature_col">
                 <div class="data data-box">
-                    <i class="fa fa-road p-2" style="position: relative; background-color: white; border: 3px solid #1633e9; border-radius: 50%; font-size: 40px; top: -30px;"></i>
+                    <i class="fa fa-road p-2" style="position: relative; background-color: white; border: 3px solid #1633e9; border-radius: 50%; font-size: 40px; top: -30px; color: #1633e9;"></i>
                     <div class="feature text-center trans_400 p-3" style="padding: 0 0 10 10; top: -40px; width: -80px;">
                         <h4 class="mb-4 mt-3">Data Batas Administrasi</h4>
                         <ul class="text-left">
@@ -114,7 +114,7 @@
             <!-- Data Item -->
             <div class="col-lg-3 col-6 feature_col">
                 <div class="data data-box">
-                    <i class="fa fa-road p-2" style="position: relative; background-color: white; border: 3px solid #1633e9; border-radius: 50%; font-size: 40px; top: -30px;"></i>
+                    <i class="fa fa-road p-2" style="position: relative; background-color: white; border: 3px solid #1633e9; border-radius: 50%; font-size: 40px; top: -30px; color: #1633e9;"></i>
                     <div class="feature text-center trans_400 p-3" style="padding: 0 0 10 10; top: -40px; width: -80px;">
                         <h4 class="mb-4 mt-3">Dokumen Tata Ruang</h4>
                         <ul class="text-left">

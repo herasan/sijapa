@@ -1301,3 +1301,13 @@ section
 	position: relative;
 	top: -1px;
 }
+
+.data-form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-clip: border-box;
+	background-color: whitesmoke;
+	border: 2px solid #1633e9;
+	border-radius: 2%;
+}

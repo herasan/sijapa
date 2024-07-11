@@ -19,24 +19,12 @@
         <ul class="menu_mm">
             <li class="active"><a href="<?= base_url('home'); ?>">Beranda</a></li>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 0px;">
-                    Form
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                    <a class="dropdown-item" href="<?= base_url('User_Formulir_pelaporan') ?>">Form Pelaporan Kerusakan</a>
-                    <a class="dropdown-item" href="<?= base_url('User_Formulir_perencanaan') ?>">Form Usulan Perencanaan</a>
-                </div>
+            <li>
+                <a href="<?= base_url('User_Formulir') ?>">Form</a>
             </li>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 0px;">
-                    Tabel Data
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                    <a class="dropdown-item" href="<?= base_url('User_Tabel_Pelaporan') ?>">Tabel Pelaporan Kerusakan</a>
-                    <a class="dropdown-item" href="<?= base_url('User_Tabel_Perencanaan') ?>">Tabel Usulan Perencanaan</a>
-                </div>
+            <li>
+                <a href="<?= base_url('User_Tabel') ?>">Tabel</a>
             </li>
 
             <li><a href="<?= base_url('User_Peta') ?>">Peta</a></li>
