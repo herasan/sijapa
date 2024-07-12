@@ -18,15 +18,12 @@
     <nav class="menu_nav">
         <ul class="menu_mm">
             <li class="active"><a href="<?= base_url('home'); ?>">Beranda</a></li>
-
             <li>
                 <a href="<?= base_url('User_Formulir') ?>">Form</a>
             </li>
-
             <li>
                 <a href="<?= base_url('User_Tabel') ?>">Tabel</a>
             </li>
-
             <li><a href="<?= base_url('User_Peta') ?>">Peta</a></li>
             <li><a href="<?= base_url('User_Data') ?>">Data</a></li>
             <li><a href="<?= base_url('User_tentang'); ?>">Tentang</a></li>

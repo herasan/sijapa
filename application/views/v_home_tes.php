@@ -7,26 +7,43 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/template/front-end/'); ?>plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="<?= base_url('assets/template/front-end/'); ?>plugins/OwlCarousel2-2.2.1/animate.css">
 </head>
-<div class="home">
-    <div class="home_slider_container">
-        <!-- Home Slider -->
-        <div class="owl-carousel owl-theme home_slider">
-            <!-- Home Slider Item -->
-            <div class="owl-item">
-                <div class="home_slider_background" style="background-image:url(<?= base_url() ?>assets/template/front-end/images/home_slider_1.jpg); box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.6)"></div>
-                <div class="home_slider_content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 text-left">
-                                <div class="home_slider_subtitle mb-5" style="color: white;">Selamat Datang,</div>
-                                <div class="home_slider_title" style="color: white; text-transform: uppercase;">Sistem Informasi Sarana dan Prasarana</div>
-                                <div class="home_slider_title mt-2" style="color: white; text-transform: uppercase;">Kecamatan Kaliwungu Kabupaten Kendal </div>
-                                <button type="submit" class="home_search_button mt-5">Login</button>
-                            </div>
+<div class="row" style="margin-top: 100px;">
+    <div class="col-lg-6 d-flex justify-content-center flex-column" style="background-color: #1633e9;">
+        <div class="container py-5">
+            <div class="home_slider_subtitle mb-5" style="color: white;">Selamat Datang,</div>
+            <div class="home_slider_title" style="color: white; text-transform: uppercase;">Sistem Informasi Sarana dan Prasarana</div>
+            <div class="home_slider_title mt-2" style="color: white; text-transform: uppercase;">Kecamatan Kaliwungu Kabupaten Kendal </div>
+            <button type="submit" class="home_search_button mt-5">Login</button>
+
+        </div>
+    </div>
+    <div class="col-lg-6 pl-0 crsl">
+        <div class="home">
+            <div class="home_slider_container">
+                <!-- Home Slider -->
+                <div class="owl-carousel owl-theme home_slider">
+                    <!-- Home Slider Item -->
+                    <div class="owl-item">
+                        <div class="home_slider_background" style="background-image:url(<?= base_url() ?>assets/template/front-end/images/about_1.jpg); box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.6)"></div>
+                        <div class="home_slider_content">
+                        </div>
+                    </div>
+                    <!-- Home Slider Item -->
+                    <div class="owl-item">
+                        <div class="home_slider_background" style="background-image:url(<?= base_url() ?>assets/template/front-end/images/about_2.jpg); box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.6)"></div>
+                        <div class="home_slider_content">
+                        </div>
+                    </div>
+                    <!-- Home Slider Item -->
+                    <div class="owl-item">
+                        <div class="home_slider_background" style="background-image:url(<?= base_url() ?>assets/template/front-end/images/about_3.jpg); box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.6)"></div>
+                        <div class="home_slider_content">
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="home_slider_nav home_slider_prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+            <div class="home_slider_nav home_slider_next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
         </div>
     </div>
 </div>

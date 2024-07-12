@@ -250,6 +250,10 @@
 	{
 		font-size: 13px;
 	}
+
+	.crsl {
+		max-height: 60%;
+	}
 }
 
 /************

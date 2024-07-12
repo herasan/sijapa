@@ -14,7 +14,7 @@ class Home extends CI_Controller
 
         $data = array(
             'title' => 'Sistem Informasi Jaringan Prasarana',
-            'isi' => 'v_home'
+            'isi' => 'v_home_tes'
         );
 
         $this->load->view('layout/wrapper', $data, FALSE);
