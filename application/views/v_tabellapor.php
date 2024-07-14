@@ -40,7 +40,7 @@
                     echo '</div>';
                 }
                 ?>
-                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                <table class="table table-striped table-bordered table-hover" id="dataTables-example" style="color: black;">
                     <thead>
                         <tr>
                             <th class="text-center">No</th>

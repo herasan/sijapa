@@ -10,14 +10,14 @@
            <div class="row mt-5">
                <!-- Item -->
                <div class="col-6 text-center">
-                   <a href="">
+                   <a href="<?= base_url('User_Tabel_Pelaporan'); ?>">
                        <i class="fa fa-book icon-tabel"></i>
                    </a>
                    <h4 class="mt-4">Tabel Pelaporan Sarana dan Prasarana Baru</h4>
                </div>
                <!-- Item -->
                <div class="col-6 text-center">
-                   <a href="">
+                   <a href="<?= base_url('User_Tabel_Perencanaan'); ?>">
                        <i class="fa fa-book icon-tabel"></i>
                    </a>
                    <h4 class="mt-4">Tabel Pelaporan Perencanaan Sarana dan Prasarana</h4>
