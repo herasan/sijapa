@@ -115,7 +115,6 @@
             </div>
         </div>
         <div class="row courses_row">
-
             <!-- Item Berita -->
             <div class="col-lg-4 course_col">
                 <div class="course">

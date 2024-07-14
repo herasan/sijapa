@@ -2,10 +2,92 @@
        <link rel="stylesheet" type="text/css" href="<?= base_url('assets/template/front-end/'); ?>styles/blog.css">
        <link rel="stylesheet" type="text/css" href="<?= base_url('assets/template/front-end/'); ?>styles/blog_responsive.css">
    </head>
-
-   <div class="container mb-3" style="margin-top: 150px">
-       <div id="map" style="width: 100%; height: 500px; z-index: 1"></div>
+   <div class="blog">
+       <div class="col-lg-10 mx-auto">
+           <div class="mt-5 p-0">
+               <div id="map" style="width: 100%; height: 500px; z-index: 1"></div>
+           </div>
+           <div class="row courses_row">
+               <!-- Item Peta -->
+               <div class="col-lg-3 col-6 course_col py-2">
+                   <a href="<?= base_url('home'); ?>">
+                       <div class="container p-0" style="background: rgba(36, 182, 234,  0.7); border-radius: 5px;">
+                           <div class="course">
+                               <div class="course_image" style="background: black;">
+                                   <img src="<?= base_url() ?>assets/template/front-end/images/course_1.jpg" style="background:black; opacity: 60%;" alt="">
+                                   <h3 class="d-flex align-self-end" style="color: whitesmoke; position: absolute; bottom: 10px;; left: 10px;">PETA DASAR</h3>
+                               </div>
+                           </div>
+                           <div class="course_body p-3">
+                               <div class="d-flex flex-row justify-content-between">
+                                   <h5 class="course_title text-white" style="width: 80%;">Peta batas administrasi Kecamatan Kaliwungu </h5>
+                                   <i class="fa fa-long-arrow-right ml-2 my-auto" style="font-size: large; transform: scaleX(2); color:whitesmoke"></i>
+                               </div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               <!-- Item Peta -->
+               <div class="col-lg-3 col-6 course_col py-2">
+                   <a href="<?= base_url('home'); ?>">
+                       <div class="container p-0" style="background: rgba(36, 182, 234,  0.7); border-radius: 5px;">
+                           <div class="course">
+                               <div class="course_image" style="background: black;">
+                                   <img src="<?= base_url() ?>assets/template/front-end/images/course_1.jpg" style="background:black; opacity: 60%;" alt="">
+                                   <h3 class="d-flex align-self-end" style="color: whitesmoke; position: absolute; bottom: 10px;; left: 10px;">PETA DASAR</h3>
+                               </div>
+                           </div>
+                           <div class="course_body p-3">
+                               <div class="d-flex flex-row justify-content-between">
+                                   <h5 class="course_title text-white" style="width: 80%;">Peta batas administrasi Kecamatan Kaliwungu </h5>
+                                   <i class="fa fa-long-arrow-right ml-2 my-auto" style="font-size: large; transform: scaleX(2); color:whitesmoke"></i>
+                               </div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               <!-- Item Peta -->
+               <div class="col-lg-3 col-6 course_col py-2">
+                   <a href="<?= base_url('home'); ?>">
+                       <div class="container p-0" style="background: rgba(36, 182, 234,  0.7); border-radius: 5px;">
+                           <div class="course">
+                               <div class="course_image" style="background: black;">
+                                   <img src="<?= base_url() ?>assets/template/front-end/images/course_1.jpg" style="background:black; opacity: 60%;" alt="">
+                                   <h3 class="d-flex align-self-end" style="color: whitesmoke; position: absolute; bottom: 10px;; left: 10px;">PETA DASAR</h3>
+                               </div>
+                           </div>
+                           <div class="course_body p-3">
+                               <div class="d-flex flex-row justify-content-between">
+                                   <h5 class="course_title text-white" style="width: 80%;">Peta batas administrasi Kecamatan Kaliwungu </h5>
+                                   <i class="fa fa-long-arrow-right ml-2 my-auto" style="font-size: large; transform: scaleX(2); color:whitesmoke"></i>
+                               </div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               <!-- Item Peta -->
+               <div class="col-lg-3 col-6 course_col py-2">
+                   <a href="<?= base_url('home'); ?>">
+                       <div class="container p-0" style="background: rgba(36, 182, 234,  0.7); border-radius: 5px;">
+                           <div class="course">
+                               <div class="course_image" style="background: black;">
+                                   <img src="<?= base_url() ?>assets/template/front-end/images/course_1.jpg" style="background:black; opacity: 60%;" alt="">
+                                   <h3 class="d-flex align-self-end" style="color: whitesmoke; position: absolute; bottom: 10px;; left: 10px;">PETA DASAR</h3>
+                               </div>
+                           </div>
+                           <div class="course_body p-3">
+                               <div class="d-flex flex-row justify-content-between">
+                                   <h5 class="course_title text-white" style="width: 80%;">Peta batas administrasi Kecamatan Kaliwungu </h5>
+                                   <i class="fa fa-long-arrow-right ml-2 my-auto" style="font-size: large; transform: scaleX(2); color:whitesmoke"></i>
+                               </div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+           </div>
+       </div>
    </div>
+
    <script>
        var peta1 = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -167,9 +249,13 @@
            geoLayer = L.geoJson(data).addTo(map);
        });
 
-
        //Data Jaringan Persampahan GeoJSON
        $.getJSON("<?= base_url('jaringanprasarana/Point_Jaringan_Persampahan.geojson') ?>", function(data) {
            geoLayer = L.geoJson(data).addTo(map);
        });
    </script>
+
+   <!-- <button class="btn btn-primary" onclick=" peta9.remove(map);peta2.remove(map);peta8.remove(map);peta5.addTo(map);">B</button>
+   <button class="btn btn-primary" onclick=" peta5.remove(map);peta8.remove(map);peta2.remove(map);peta9.addTo(map);">B</button>
+   <button class="btn btn-primary" onclick=" ChangeLayer(peta2);">B</button>
+   <button class="btn btn-primary" onclick=" ChangeLayer(peta8);">B</button> -->
